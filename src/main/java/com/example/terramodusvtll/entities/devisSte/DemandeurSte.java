@@ -17,7 +17,7 @@ public class DemandeurSte{
     @Column(name = "email")
     private String email;
     @Column(name = "phone",length = 15)
-    private int phone;
+    private String phone;
     @Column(name = "siege")
     private String siege;
 
@@ -29,11 +29,11 @@ public class DemandeurSte{
         this.email = email;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
